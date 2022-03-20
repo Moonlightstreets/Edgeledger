@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: sans-serif;
+  z-index: 1;
+  max-width: 100%;
+}
+
+header {
+  background: #555
+    url("https://www.trektoursaustralia.com.au/wp-content/uploads/trek-tours-australia9-1.jpg")
+    no-repeat center center/cover;
+  height: 75vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+/* #face {
+  height: 200px;
+  width: 200px;
+} */
+
+#face img {
+  border-radius: 50%;
+  display: block;
+  height: 500px;
+  width: 500px;
+}
+
+#main {
+  position: relative;
+  max-width: 100%;
+}
+
+#main #section-1,
+#section-2 {
+  display: flex;
+  max-width: 100%;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background: #333;
+  background: #555;
+}
+
+#section-2 {
+  background: #fff;
+  background: #fae5d3;
+  max-width: 100%;
+}
+
+#section-3 {
+  position: relative;
+  height: 500px;
+  background: #fae5d3;
+  max-width: 100%;
+}
+
+#section-3 .container {
+  background: #555;
+  color: #fff;
+}
+
+#section-3 .container h2,
+#section-3 .container h3,
+#section-3 .container p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+#section-3 .container h3 {
+  margin: 5px 0 20px 0;
+}
+
+#section-3 .container .s-3-box {
+  /*   border: 1px solid red; */
+  height: 405px;
+  width: 600px;
+  margin: auto;
+}
+
+#section-3 .s-3-box p {
+  text-align: left;
+  color: #FFD700;
+}
+
+#section-4 {
+  /*   align-items: center; */
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  background: #555;
+  /* height: 600px; */
+  max-width: 100%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+#section-4 .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  position: relative;
+  
+  
+}
+#section-4 #img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*   padding: 5px;
+  margin: auto; */
+  position: relative;
+  height: 100%;
+  /*   height: 400px;
+  width: 400px; */
+}
+
+#section-4 #img-div figure #image {
+  display: block;
+  border: 2px solid black;
+  height: 597px;
+  
+  width: 800px;
+}
+
+#section-4 .s-4-box {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  height: 100%;
+  height: 597px;
+  width: 400px;
+  width: 800px;
+  background: #555;
+  
+}
+
+#section-4 .s-4-box-internal {
+  background: #fae5d3;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#section-4 .s-4-box h3,
+#section-4 .s-4-box .btn {
+  text-align: center;
+}
+
+#section-4 .s-4-box h3 {
+  font-size: 30px;
+  font-weight: 100;
+  padding: 10px 0;
+  /* margin-bottom: 10px 0; */
+
+}
+
+.btn {
+  padding: 10px 25px;
+  background: #333;
+  width: 150px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#section-4 .s-4-box .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container .container-content {
+  background: lightgrey;
+  background: #fae5d3;
+  background: #abb2b9;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#section-2 .content-container .container-content {
+  background: #333;
+  background: #abb2b9;
+  /*   color: #fff; */
+}
+
+.content-container .container-content h3 {
+  text-align: center;
+  font-weight: 200;
+  color: green;
+  margin: 10px 0;
+}
+
+.content-container .container-content p {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.content-container figcaption {
+  font-size: 13px;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+
+#title,
+#title h1 {
+  background: #333;
+  background: #fae5d3;
+  text-align: center;
+  
+}
+
+#section-4 #img-caption {
+  font-size: 13px;
+  color: #fff;
+}
